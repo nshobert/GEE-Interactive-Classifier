@@ -1,5 +1,5 @@
 # Interactive Scene Classifier using Google Earth Engine
-This project includes a jupyter notebook that allows the user to import, view, and classify images from the Sentinel-2 Surface Reflectance collection. The user applies a supervises the classification of an original image. Then, the trained classifier can be reused to classify additional images. The project would be improved by adding a procedure to validate the classifier.
+This project includes a jupyter notebook that allows the user to import, view, and classify images from the Sentinel-2 Surface Reflectance collection. The user supervises the classification of an original image. Then, the trained classifier can be reused to classify additional images. The project would be improved by adding a procedure to validate the classifier.
 
 ## Usage
 You can clone this repo in a terminal by typing
