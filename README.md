@@ -1,27 +1,28 @@
 # Interactive Scene Classifier using Google Earth Engine
-This project includes a jupyter notebook that allows the user to import, view, and classify images from the Sentinel-2 Surface Reflectance collection. The user supervises the classification of an original image. Then, the trained classifier can be reused to classify additional images. The project would be improved by adding a procedure to validate the classifier.
+This project includes a jupyter notebook that allows the user to import, view, and classify images from the Sentinel-2 Surface Reflectance image collection. The user defines a site and study period, then supervises the classification of an original image there. The trained classifier can then be reused to classify additional images.
+
+The project could be improved by adding a procedure to validate the classifier.
 
 ## Usage
-You can clone this repo in a terminal by typing
+You can clone this repo in a terminal by typing (change user name and file path to your local destination)
 
-        C:\Users\<USERNAME>\Documents\code\>git clone XXXXX
+        C:\Users\<USERNAME>\<FILEPATH>>git clone https://ngi001@dev.azure.com/ngi001/NGI%20Natural%20Hazards/_git/GEE-Python-Interactive-Classifier
 
 Change into the new directory 
 
-        C:\Users\<USERNAME>\Documents\code\> cd XXXXX     
+        C:\Users\<USERNAME>\<FILEPATH>> cd GEE-Python-Interactive-Classifier     
 
 and start a virtual environment from the command line 
 
-        C:\Users\<USERNAME>\Documents\code\XXXXXX> pipenv shell 
-        Launching subshell in virtual environment...
-        Microsoft Windows [Version 10.0.19043.1526]
-        (c) Microsoft Corporation. All rights reserved.
+        C:\Users\<USERNAME>\<FILEPATH>GEE-Python-Interactive-Classifier> pipenv shell 
 
 The first time you use the code in this repo you need to install the dependencies of the virtual environment
 
-        (XXXX-YYYYY) C:\Users\USERNAME\Documents\code\XXXXX> pipenv install
+        (GEE-Python-Interactive-Classifier-YYYYY) C:\Users\USERNAME\<FILEPATH>GEE-Python-Interactive-Classifier> pipenv install
+
 Then you can run the notebook on a browser using the following command
-(XXXX-YYYYY) C:\Users\USERNAME\Documents\code\XXXXX> jupyter-lab
+
+        (GEE-Python-Interactive-Classifier-YYYYY) C:\Users\USERNAME\<FILEPATH>GEE-Python-Interactive-Classifier> jupyter-lab
 
 ## Dependencies
 To run the code in this repo you need to have installed 
