@@ -6,7 +6,7 @@ The project could be improved by adding a procedure to validate the classifier.
 ## Usage
 You can clone this repo in a terminal by typing (change user name and file path to your local destination)
 
-        C:\Users\<USERNAME>\<FILEPATH>>git clone https://ngi001@dev.azure.com/ngi001/NGI%20Natural%20Hazards/_git/GEE-Python-Interactive-Classifier
+        C:\Users\<USERNAME>\<FILEPATH>>git clone https://github.com/nshobert/GEE-Interactive-Classifier.git
 
 Change into the new directory 
 
@@ -26,11 +26,11 @@ Then you can run the notebook on a browser using the following command
 
 ## Dependencies
 To run the code in this repo you need to have installed 
-- pyenv, [NGI-adapted guide](https://ngiwiki.slite.com/app/docs/KXWBnnQrSS_Uu4)
-- pipenv, [NGI-adapted guide](https://ngiwiki.slite.com/app/docs/tO10k0gX_U-6Ve)
+- pyenv
+- pipenv
 
 ## Tips and other notes
-See the other GEE Repos on the NGI Natural Hazards DevOps page to get started with Google Earth Engine!
+See the other GEE Repos to get started with Google Earth Engine!
 
 The code in this repo has been succsessfully ran on: 
 - cmd Windows 10
